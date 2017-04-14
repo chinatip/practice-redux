@@ -1,0 +1,5 @@
+deployment:
+  gh-page:
+    branch: master
+    commands:
+      - yarn run deploy
