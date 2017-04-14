@@ -2,4 +2,6 @@ deployment:
   gh-page:
     branch: master
     commands:
+      - git config --global user.email "<>"
+      - git config --global user.name "CircleCI"
       - yarn run deploy
